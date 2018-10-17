@@ -1,0 +1,80 @@
+\documentclass[a4paper,10pt]{scrartcl}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\title{Systemnahe Programmierung}
+\author{Benjamin Altmiks}
+\date{5. Oktober 2018 - \today}
+
+\begin{document}
+
+\maketitle
+
+\section{Einleitung}
+\subsection{Programme} 
+Tastatur $\Rightarrow$ Betriebssystemkern $\Rightarrow$ Fenstersystem (GUI) $\Rightarrow$ Programm (App) $\newline$
+Hier dargestellt ist der Grundaufbau bei Nutzung eines Programms.\newline
+Der Betriebssystemkern (Linux) ist auch verantwortlich für die Interaktion zwischen verschiedenen Programmen. 
+\subsection{Computer-Sprachen}
+\begin{enumerate}
+    \item Maschinensprache: Zahlenbefehle an den Computer, der diese verarbeiten kann
+    \item Assemblersprache: Maschinensprache mit Buchstaben zur Vereinfachung
+    \item Höhere Programmiersprachen: INterpreter und Complier übersetzen den Text zu Maschinenbefehlen
+\end{enumerate}
+
+\section{Computerarchitektur}
+In der modernen Computerarchtitektur unterscheidet man in einem Geräat zwischen zwei Teilen. Der CPU (Central Processing
+Unit) und dem Speicher
+\subsection{Speicher - Struktur}
+Die Struktur zum Speichern ist mit vielen kleinen Paketen, die alle die selbe größe besitzen, zu vergeichen. Jedes Paket hat einen festen Platz und jedes Paket ist immer gleich groß. Grund dafür ist die einfache Programmierung dieser Struktur.
+\subsection{CPU}
+Die CPU beinhaltet:
+\begin{itemize}
+    \item Anweisungszähler\newline $\Rightarrow$ Was ist die nächste Anweisung
+    \item Anweisungsleser\newline $\Rightarrow$ Was besagt die Anweisung
+    \item Daten-Bus $\Rightarrow$ Verbindung zwischen Speicher und CPU\newline
+    Liest die Daten die für die Anweisung notwendig sind
+    \item  General-purpose registers $\Rightarrow$ Register mit Anweisungen für Operationen mit wahlfreiem Zugriff
+    \item Arithmetisch-logische Einheit $\Rightarrow$ Schaltung die Anweisungen durchführen kann (zwei n-Bit)
+\end{itemize}
+
+\subsection{Speicher - Logisch}
+Der Speicher bestet aus Paketen fester größe mit Nummer zum auffinden(Adresse). Die Größe Beträgt genau 1 Byte (x86). Dies reicht aus für eine Nummer zwischen 0 und 255 (ASCII). Für Zahlen 255+ verwendet man eine Kombination von Bytes (4 Bytes = 0 bis 4294967295)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Homework}
+Vertraut machen mit GitLab und Linux Commands auf Shell lernen und schreiben in Latex
++ Prog E-Mail einrichtung und Assembler lernen (alles ins Dokument schreiben)
++ Phython Book Kapitel 1-3
+Make-File von Download lesen
+
+AlleTextdatein in restructuredtext schreiben und übergeben
+\end{document}
